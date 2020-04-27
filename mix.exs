@@ -22,7 +22,7 @@ defmodule DeliverProject.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:edeliver, path: "/home/stefan_kupresak/projects/examples/edeliver"},
+      {:edeliver, git: "https://github.com/dev-cyprium/mix-release-edeliver.git"},
       {:plug_cowboy, "~> 2.0"},
       {:jason, "~> 1.2"}
       # {:dep_from_hexpm, "~> 0.3.0"},

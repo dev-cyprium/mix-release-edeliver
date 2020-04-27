@@ -1,21 +1,11 @@
 # DeliverProject
 
-**TODO: Add description**
+This is a demo project to demostrate `mix release` command with edeliver.
+To run it, make sure you have `ssh` access to either localhost or your prefered server and execute:
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `deliver_project` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:deliver_project, "~> 0.1.0"}
-  ]
-end
+```bash
+mix edeliver upgrade
+mix edeliver start
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/deliver_project](https://hexdocs.pm/deliver_project).
-
+Now, a server should start at `http://localhost:8080` and you can access it to see the running application.
