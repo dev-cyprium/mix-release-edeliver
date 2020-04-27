@@ -1,0 +1,13 @@
+# .deliver/config
+
+APP="deliver_project"
+RELEASE_CMD="mix-release"
+RELEASE_DIR="~/elixir_builds/_build/prod/rel/$APP"
+
+BUILD_HOST="BGL-STEFA-KUPRE" # localhost
+BUILD_USER="deployer"
+BUILD_AT="~/elixir_builds/"
+
+STAGING_HOSTS="BGL-STEFA-KUPRE" # localhost
+STAGING_USER="deployer"
+DELIVER_TO="~/elixir_web/"
